@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AULA 04 FICR</title>
     <style>
+        
         body{
             background-color: rgb(255, 255, 255);
         }
@@ -20,6 +21,13 @@
             border-radius: 6px;
             box-shadow: 0 0 4px grey;
             float: left;
+        }
+        .card-img {
+            transition: transform .3s;
+            width: 240px;
+            height: 190px;
+            margin-left: 35px;
+
         }
         .card-texto{
             padding: 16px;
@@ -39,38 +47,41 @@
            font-size: 15px;
            text-align: center;
        }
+       .card-img:hover {
+        transform: scale(1.1);
+       }
     </style>
 </head>
 <body>
     <div id="principal">
         <div class="card">
             <figure class="card-img">
-                <img src="Imagens/goku.jpg" alt="GOKU" width="170px" height="180px" margin-left="1px" />
+                <img src="Imagens/goku.png" alt="GOKU" width="170px" height="180px" margin-left="1px" />
             </figure>
             <section class="card-texto">
                 <header><h3>Goku</h3></header>
-                <p>Son Goku, cujo nome verdadeiro é Kakarotto é o protagonista da franquia Dragon Ball, criada por Akira Toriyama. Sua primeira aparição ocorreu no primeiro capítulo do mangá Dragon Ball, intitulado Bulma e Son Goku, publicado na revista Weekly Shōnen Jump em 3 de dezembro de 1984.</p>
+                <p>Son Goku, cujo nome verdadeiro é Kakarotto, é o protagonista da franquia Dragon Ball, criada por Akira Toriyama. Sua primeira aparição ocorreu no primeiro capítulo do mangá Dragon Ball, intitulado Bulma e Son Goku, publicado na revista Weekly Shōnen Jump em 3 de dezembro de 1984.</p>
             </section>
         </div>
         <div class="card">
             <figure class="card-img">
-                <img src="Imagens/vegeta.jpg" alt="VEGETA" width="170px" height="180px" margin-left="1px" />
+                <img src="Imagens/vegeta.png" alt="VEGETA" width="170px" height="180px" margin-left="1px" />
             </figure>
             <section class="card-texto">
                 <header><h3>Vegeta</h3></header>
-                <p>Vegeta é um personagem fictício da franquia Dragon Ball criado por Akira Toriyama. Considerado como O Príncepe da raça Saiyajin</p>
+                <p>Vegeta é um personagem da franquia Dragon Ball criado por Akira Toriyama. Ele é considerado como "o príncepe guerreiro da raça saiyajin".</p>
             </section>
         </div>
         <div class="card">
             <figure class="card-img">
-                <img src="Imagens/gohan.webp" alt="GOHAN" width="170px" height="180px" margin-left="1px" />
+                <img src="Imagens/gohan.png" alt="GOHAN" width="170px" height="180px" margin-left="1px" />
             </figure>
             <section class="card-texto">
                 <header><h3>Gohan</h3></header>
-                <p>Son Gohan, também conhecido apenas como Gohan, é um personagem fictício da franquia Dragon Ball criada por Akira Toriyama. Ele aparece na segunda parte do mangá, que corresponde ao anime Dragon Ball Z</p>
+                <p>Son Gohan, também conhecido apenas como Gohan, o primeiro filho de Goku, é um personagem da franquia Dragon Ball criada por Akira Toriyama. Ele aparece na segunda parte do mangá, que corresponde ao anime Dragon Ball Z.</p>
             </section>
         </div>
-        <div class="rodape"><h5>nebbering</h5></div>
+        <div class="rodape"><h5>@nebbering</h5></div>
     </div>
 </body>
 </html>
